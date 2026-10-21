@@ -1,6 +1,6 @@
 # Mi página
 
-Una página pública con un formulario que guarda lo que la gente escribe, y una
+Una página pública con un formulario que guarda lo que la gente aparta, y una
 lista que muestra lo guardado.
 
 Construida en la **Sesión 7 del curso Claude for Business**, sin escribir código:
@@ -11,19 +11,15 @@ todo se le pidió a Claude en español.
 | Pieza | Qué hace |
 |---|---|
 | **GitHub** | Guarda este proyecto y su historial |
-| **Netlify** | Publica lo que hay aquí como página web |
+| **GitHub Pages** | Publica en internet lo que hay en `main` |
 | **Supabase** | Guarda lo que la gente escribe en el formulario |
 
 ## Cómo se cambia
 
-1. Se abre una sesión de Claude sobre este repositorio.
+1. Se abre una sesión de Claude Code en la nube sobre este repositorio.
 2. Se le pide el cambio **en una rama**, no en `main`.
-3. Netlify hace una **vista previa** con su propia liga: ahí se revisa.
-4. Cuando está bien, se fusiona la rama. Eso —y solo eso— publica.
-
-> **Fusionar cuesta.** El plan gratuito de Netlify alcanza para unas veinte
-> publicaciones al mes. Las vistas previas son gratis e ilimitadas: se itera ahí
-> y se fusiona poco.
+3. Claude abre un **Pull Request**: ahí se revisa qué cambió.
+4. Cuando está bien, se fusiona. Eso, y solo eso, publica.
 
 ## Qué NO va en este repositorio
 
